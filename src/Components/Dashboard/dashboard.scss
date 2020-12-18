@@ -1,0 +1,169 @@
+.dashboard-wrapper {
+  padding-top: 20px;
+  .details-dashboard {
+    .tips-dashboard {
+      border-radius: 5px;
+      padding: 15px 0 15px 25px;
+      &.ca-dashboard {
+        background: #f8fffc;
+        border: 1px solid #e8f9f6;
+      }
+      &.invoice-dashboard {
+        background: #f8faff;
+        border: 1px solid #e8f0f9;
+      }
+      &.orders-dashboard {
+        background: #fff8f8;
+        border: 1px solid #f9e8e8;
+      }
+      .total-dashboard {
+        p {
+          font-size: 25px;
+          font-weight: 700;
+          color: #0200c9;
+          padding: 0;
+          margin: 0;
+          span {
+            font-size: 13px;
+            font-weight: 400;
+            color: #0200c9;
+            margin-left: 10px;
+          }
+        }
+      }
+      .journey-dashboard {
+        p {
+          font-size: 25px;
+          font-weight: 700;
+          color: #0200c9;
+          padding: 0;
+          margin: 0;
+          span {
+            font-size: 13px;
+            font-weight: 400;
+            color: #0200c9;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  .chart-dashboard {
+    margin-top: 30px;
+    h3 {
+      font-size: 13px;
+      color: #0200c9;
+      font-weight: 700;
+    }
+  }
+  .invoices-dashboard {
+    margin-top: 30px;
+    .invoices-table {
+      .invoice-top {
+        display: flex;
+        justify-content: space-between;
+        h3 {
+          font-size: 13px;
+          color: #0200c9;
+          font-weight: 700;
+        }
+        .see-all {
+          font-size: 10px;
+          color: #0200c9;
+          font-weight: 400;
+          text-decoration: none;
+        }
+      }
+      .table-dashboard {
+        margin-top: 20px;
+        border: none;
+        thead {
+          background: #0200c9;
+          border: none;
+          tr {
+            th {
+              height: 40px;
+              color: #fff;
+              font-size: 13px;
+              font-weight: 500;
+            }
+          }
+        }
+        tbody {
+          border: none;
+          tr {
+            &.paid {
+              background: #f8fffc;
+            }
+            &.pending {
+              background: #fff8f8;
+            }
+            td {
+              font-size: 11px;
+              font-weight: 400;
+              color: #1c1c1c;
+              span {
+                margin-right: 15px;
+                cursor: pointer;
+                i {
+                  font-size: 11px;
+                  color: #0200c9;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .task-table {
+      .task-top {
+        display: flex;
+        justify-content: space-between;
+        h3 {
+          font-size: 13px;
+          color: #0200c9;
+          font-weight: 700;
+        }
+        .see-all {
+          font-size: 10px;
+          color: #0200c9;
+          font-weight: 400;
+          text-decoration: none;
+        }
+      }
+      .tasks-table {
+        margin-top: 20px;
+        border: none;
+        thead {
+          background: #0200c9;
+          border: none;
+          tr {
+            th {
+              height: 40px;
+              color: #fff;
+              font-size: 13px;
+              font-weight: 500;
+            }
+          }
+        }
+        tbody {
+          tr {
+            cursor: pointer;
+            &.done {
+              background: #f8fffc;
+              text-decoration: line-through;
+            }
+            &.pending {
+              background: #fff8f8;
+            }
+            td {
+              font-size: 11px;
+              font-weight: 400;
+              color: #1c1c1c;
+            }
+          }
+        }
+      }
+    }
+  }
+}
