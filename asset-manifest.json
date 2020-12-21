@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dashboard-pasteur.github.io/static/css/main.4c92bb01.chunk.css",
+    "main.js": "/dashboard-pasteur.github.io/static/js/main.80ec46ee.chunk.js",
+    "main.js.map": "/dashboard-pasteur.github.io/static/js/main.80ec46ee.chunk.js.map",
+    "runtime-main.js": "/dashboard-pasteur.github.io/static/js/runtime-main.73856c50.js",
+    "runtime-main.js.map": "/dashboard-pasteur.github.io/static/js/runtime-main.73856c50.js.map",
+    "static/css/2.9c6b934b.chunk.css": "/dashboard-pasteur.github.io/static/css/2.9c6b934b.chunk.css",
+    "static/js/2.f75e34dd.chunk.js": "/dashboard-pasteur.github.io/static/js/2.f75e34dd.chunk.js",
+    "static/js/2.f75e34dd.chunk.js.map": "/dashboard-pasteur.github.io/static/js/2.f75e34dd.chunk.js.map",
+    "static/js/3.05523230.chunk.js": "/dashboard-pasteur.github.io/static/js/3.05523230.chunk.js",
+    "static/js/3.05523230.chunk.js.map": "/dashboard-pasteur.github.io/static/js/3.05523230.chunk.js.map",
+    "index.html": "/dashboard-pasteur.github.io/index.html",
+    "static/css/2.9c6b934b.chunk.css.map": "/dashboard-pasteur.github.io/static/css/2.9c6b934b.chunk.css.map",
+    "static/css/main.4c92bb01.chunk.css.map": "/dashboard-pasteur.github.io/static/css/main.4c92bb01.chunk.css.map",
+    "static/js/2.f75e34dd.chunk.js.LICENSE.txt": "/dashboard-pasteur.github.io/static/js/2.f75e34dd.chunk.js.LICENSE.txt",
+    "static/media/pasteur_logo.967c33d3.svg": "/dashboard-pasteur.github.io/static/media/pasteur_logo.967c33d3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73856c50.js",
+    "static/css/2.9c6b934b.chunk.css",
+    "static/js/2.f75e34dd.chunk.js",
+    "static/css/main.4c92bb01.chunk.css",
+    "static/js/main.80ec46ee.chunk.js"
+  ]
+}
